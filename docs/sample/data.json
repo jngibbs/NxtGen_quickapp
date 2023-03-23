@@ -1,10 +1,10 @@
 {
     "meta": {
-        "app_id": "org.example.same.identifier.manifest.package",
+        "app_id": "",
         "app_title": "City Street Heritage",
         "version": 1,
-        "updated": "2022-09-26",
-        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
+        "updated": "2022-05-26",
+        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/country/city/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
     },
@@ -12,27 +12,74 @@
         "en": {
             "app": {
                 "theme": {
-                    "brand": "#B11623",
-                    "complementary": "#FAFAFA"
+                    "brand": "#A02EFF",
+                    "complementary": "#ffffff"
                 },
-                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
+                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/docs/country/city",
                 "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
                 "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
                 "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
-                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/#get-involved",
-                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/country/city/#get-involved",
+                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
             "pois": [{
                     "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
+                    "lat": "30.694422",
+                    "lon": "-88.140947",
                     "type": "statue",
-                    "name": "My Statue",
+                    "name": "The Old Wall",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://github.com/afalch01/NxtGenTourGuide/blob/be8295fdd5d753d678bd1820b2c55748eaaa85e7/docs/sample/images/IMG_20230213_145552879_HDR.jpg"
                     ],
-                    "description": "One-paragraph description",
+                    "description": "As a tiny mouse scurrying across the campus of Spring Hill College, I couldn't help but notice a beautiful and tranquil space nestled among the trees. It was the Marian Grotto, a serene devotional site dedicated to the Virgin Mary.",
+                    "more": "More description, if you want",
+                    "urls": [
+                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
+                        "https://example.org/mypoi"
+                ]
+            },
+                {
+                    "id": "uniqueID-2",
+                    "lat": "50.9",
+                    "lon": "4.8",
+                    "type": "statue",
+                    "name": "Marian Grotto",
+                    "images": [
+                        "https://github.com/afalch01/NxtGenTourGuide/blob/be8295fdd5d753d678bd1820b2c55748eaaa85e7/docs/sample/images/IMG_20230213_145418878.jpg"
+                    ],
+                    "description": "As I approached the Grotto, I marveled at the verdant ivy that cascaded down the stone facade, creating a peaceful atmosphere that soothed my tiny mousey soul. The sound of the breeze, the chirping of the birds, and the rustling of the ivy’s tendrils created a symphony of nature that surrounded the Grotto.",
+                    "more": "More description, if you want",
+                    "urls": [
+                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
+                        "https://example.org/mypoi"
+                        ]
+                },
+                     {
+                    "id": "uniqueID-3",
+                    "lat": "30.694422",
+                    "lon": "-88.140947",
+                    "type": "statue",
+                    "name": "The Virgin Mary",
+                    "images": [
+                        "https://github.com/afalch01/NxtGenTourGuide/blob/5518b1bf84e9645fab2ae94012d0236be38885fc/docs/sample/images/IMG_20230213_145530782.jpg"
+                    ],
+                    "description": "But it wasn't just the natural beauty that drew my attention. The Grotto was adorned with a beautiful statue of the Virgin Mary, standing proudly and majestically in the center of the space. The white marble of her robes gleamed in the sunlight, while the intricate details of her face and hands seemed to bring her to life.",
+                    "more": "More description, if you want",
+                    "urls": [
+                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
+                        "https://example.org/mypoi"
+                        ]
+                },
+            {
+                    "id": "uniqueID-4",
+                    "lat": "30.694422",
+                    "lon": "-88.140947",
+                    "type": "statue",
+                    "name": "Tunnel of Intentions",
+                    "images": [
+                        "https://github.com/afalch01/NxtGenTourGuide/blob/be8295fdd5d753d678bd1820b2c55748eaaa85e7/docs/sample/images/IMG_20230213_145455023_HDR.jpg"
+                    ],
+                    "description": "I could feel the reverence and respect that the students and visitors had for this sacred space as they came to offer prayers, which were channeled up towards the figure of Mary. It was clear that the Grotto held a special place in the hearts of those who visited it.",
                     "more": "More description, if you want",
                     "urls": [
                         "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
@@ -40,23 +87,22 @@
                     ]
                 },
                 {
-                    "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
+                     "id": "uniqueID-5",
+                    "lat": "30.694422",
+                    "lon": "-88.140947",
                     "type": "statue",
-                    "name": "My Statue",
+                    "name": "Leaving the Grotto",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://github.com/afalch01/NxtGenTourGuide/blob/cbd5b91c04da4cb20497d322c190560815d18861/docs/sample/images/statue%20int%20bus.jpg"
                     ],
-                    "description": "One-paragraph description",
+                    "description": "As I scurried back into the bushes, I couldn't help but feel a sense of peace and contentment that lingered long after I left the Grotto. Even as a tiny mouse, I knew that the Marian Grotto was a significant and beautiful part of Spring Hill College - once a wall that bordered the campus, now a monument of the school’s Jesuit community.",
                     "more": "More description, if you want",
                     "urls": [
-                        "https://nl.wikipedia.org/MyPoi",
+                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
                         "https://example.org/mypoi"
-                    ]
+                        ]
                 }
-            ]
+             ]
         }
     }
 }
