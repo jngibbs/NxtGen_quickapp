@@ -22,7 +22,8 @@
                 "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/country/city/#get-involved",
                 "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
-            "pois": [{
+            "pois": [
+                {
                     "id": "uniqueID",
                     "lat": "30.694422",
                     "lon": "-88.140947",
