@@ -34,11 +34,8 @@
                     ],
                     "description": "As a tiny mouse scurrying across the campus of Spring Hill College, I couldn't help but notice a beautiful and tranquil space nestled among the trees. It was the Marian Grotto, a serene devotional site dedicated to the Virgin Mary.",
                     
-                    "urls": [
-                        
-                        
-                ]
-            },
+                    "urls": []                     
+                },
                 {
                     "id": "uniqueID-2",
                     "lat": "50.9",
